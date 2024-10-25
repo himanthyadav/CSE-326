@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            justify-content: center;
+            display: grid;
+            gap: 10px;
+            grid-template-columns: repeat(15,60px);
+            grid-template-rows: repeat(13,60px);
+            border: 4px solid;
+        }
+        .logo{
+            background-color: darkgreen;
+            grid-area: 2/2/5/5;
+            display: flex;
+            align-content: center;
+            align-items: center;
+            justify-content: center;
+            border: 4px solid;
+        }
+        .navigation{
+            display: flex;
+            align-content: center;
+            align-items: center;
+            justify-content: center;
+            background-color: ;
+            grid-area: 6/2/10/5;
+            border: 4px solid;
+        }
+        .content{
+            display: flex;
+            align-content: center;
+            align-items: center;
+            justify-content: center;
+            border: 4px solid;
+            /* background-color: blueviolet; */
+            grid-area: 6/5/12/14;
+        }
+        .workspace{
+            display: flex;
+            align-content: center;
+            align-items: center;
+            justify-content: center;
+            /* background-color: aqua; */
+            grid-area: 10/2/12/5;
+        }
+        .topbar{
+            display: flex;
+            align-content: center;
+            align-items: center;
+            justify-content: center;
+            background-color: darkgreen;
+            grid-area: 2/5/3/14;
+        }
+        .topsmall{
+            display: flex;
+            align-content: center;
+            align-items: center;
+            justify-content: center;
+            background-color: ;
+            grid-area: 3/5/4/11;
+            border: 4px solid;
+            
+        }
+        .box{
+            border: 4px solid;
+            /* background-color: black; */
+            grid-area: 4/5/5/7;
+        }
+        .box1{
+            border: 4px solid;
+            /* background-color: black; */
+            grid-area: 4/7/5/9;
+        }
+        .box2{
+            border: 4px solid;
+            /* background-color: black; */
+            grid-area: 4/9/5/11;
+        }
+        .box3{
+            border: 4px solid;
+            /* background-color: black; */
+            grid-area: 4/11/5/13;
+        }
+        .footer{
+            display: flex;
+            align-content: center;
+            align-items: center;
+            justify-content: center;
+            border: 4px solid;
+            background-color: rgb(202, 237, 255);
+            grid-area: 12/5/13/14;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">logo</div>
+        <div class="navigation">navigation</div>
+        <div class="content"></div>
+        <div class="workspace">workspace</div>
+        <div class="topbar"></div>
+        <div class="topsmall"></div>
+        <div class="box"></div>
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+        <div class="footer">footer</div>
+
+    </div>
+</body>
+</html>
